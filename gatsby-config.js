@@ -15,6 +15,7 @@ module.exports = {
     `gatsby-plugin-mdx`, 
     `gatsby-plugin-sharp`, 
     `gatsby-transformer-sharp`, 
+    'gatsby-transformer-yaml-full',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -30,6 +31,21 @@ module.exports = {
         "path": "./src/pages/"
       },
       __key: "pages"
-    }
+    },
+    { 
+      resolve: `gatsby-source-filesystem`, 
+      options: { 
+        name: `content`, 
+        path: `${ __dirname }/src/content` 
+      }, 
+    },
+    { 
+      resolve: `gatsby-source-filesystem`, 
+      options: { 
+        name: `homePage`, 
+        path: `${ __dirname }/src/content/pages/home/homePage.yaml` 
+      }, 
+    },
+
   ]
 };

@@ -1,0 +1,57 @@
+featuresSection: 
+  heading: "Launch, Analyze, and Discover your Data with HeLx"
+  subheading: "HeLx empowers researchers in domains as varied as plant genomics, biomedical science, clinical x, and neuroscience to do work with their prefered tools close to the data in the cloud at scale. "
+  subsections: [
+  {
+    title: 'Reach new data frontiers with HeLx',
+    subtitle: 'Leave the design and implementation of scalability, cloud resources, and account authentication to HeLx so you and your team can focus on what matters most to you.',
+    image: ./Asset2.png,
+  },
+  {
+    title: 'Implement tools and solutions to explore your data',
+    subtitle: 'Each deployment of HeLx is fully customizable for your domain-specific data-driven needs. No mandatory extras, no surprise addons--just your toolsets and your data.',
+    image: ./Asset3.png,
+  },
+  {
+    title: 'Launch a flexible workspace for any science domain',
+    subtitle: 'Diving into the new, novel, and unknown? HeLx has you covered. Researchers can implement their own datasets for analyses without concern for data use agreements or access requests.',
+    image: ./Asset3.png,
+  },
+  ]
+functionsSection: 
+  heading: "What can you ______ with HeLx today?"
+    verbs: ["build", "analyze", "investigate", "share", "learn"]
+  subheading: "Reach new data frontiers in your research by using HeLx."
+  subsections: [
+    {
+      title: 'Applications and Workflow',
+      subtitle: 'Choose from pre-loaded industry standard tools and apps or customize above and beyond to support your work.',
+      image: ,
+    },
+    {
+      title: 'Complex Search Functionality',
+      subtitle: 'Includes full text-driven knowledge graph augmented semantic search.',
+      image: ,
+    },
+    {
+      title: 'Open Source',
+      subtitle: 'Supports multiple authentication providers and authorization models.',
+      image: ,
+    },
+    {
+      title: 'Scalable',
+      subtitle: 'Scalable native architecture with Kubernetes, Apache Airflow, and Nextflow.',
+      image: ,
+    },
+    {
+      title: 'Flexible and Customizable',
+      subtitle: 'Provides a unified data science workbench tailored to each science community, applicable to and actively used across science domains.',
+      image: ,
+    },
+    {
+      title: 'Metadata Driven',
+      subtitle: 'Extensible metadata driven architecture simplifies adding data science workspaces.',
+      image: ,
+    }
+  ]
+
